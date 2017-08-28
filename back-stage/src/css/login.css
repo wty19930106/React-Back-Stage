@@ -1,0 +1,50 @@
+/*#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}*/
+body{
+  margin: 0;
+ background: url(../img/3.jpg) no-repeat center;
+}
+
+.login-form{
+  position:absolute;
+  left:0;
+  right:0;
+  top:30%;
+  bottom:0;
+  margin:auto;
+  width: 300px;
+}
+.ant-btn .login-form-button .ant-btn-primary .ant-btn-lg{
+  width: 100px;
+}
+.login-form-button{
+  width: 300px;
+}
+.zcdl{
+  float: right;
+  color: #d0f7f8;
+}
+.remember{
+  color: #d0f7f8;
+}
+.signup{
+  background: none;
+  position: absolute;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  width: 80px;
+  left: 210px;
+  top: 155px;
+  border-color:#108ee9;
+}
+.ant-modal-content{
+  height: 315px;
+}
